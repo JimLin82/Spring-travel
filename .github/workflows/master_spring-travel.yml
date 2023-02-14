@@ -50,4 +50,4 @@ jobs:
           app-name: 'spring-travel'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_ACA99AAA9EF24CCB9A0C13CEEFCE1476 }}
-          package: '*.war'
+          package: 'C:\Users\a0988\git\TravelB\TravelB\src\main\java\SpringSql\TravelBApplication\'
