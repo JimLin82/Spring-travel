@@ -1,0 +1,32 @@
+/*圖片敘事的CSS*/
+#UC {
+    width: 400px;
+    height: 450px;
+    overflow: clip;
+    /*display: flex; !* 設定為 flex 元素 *!*/
+    justify-content: center; /* 內容水平居中 */
+    align-items: center; /* 內容垂直居中 */
+}
+
+#p1u {
+    width: 350px;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #4d4d4d;
+    overflow: clip;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    box-sizing: border-box;
+
+}
+#img1{
+    width: 400px;
+    height: 250px;
+}
+
+
+.margin-top {
+    margin-top: 10px;
+}
